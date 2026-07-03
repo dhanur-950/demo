@@ -36,7 +36,7 @@ public class DmoController {
     @PostMapping("/save")
     public String save(@RequestBody Employee employee) {
         employeerepo.save(employee);
-        return "Employee saved successfully";
+        return "Employee saved successfullyyyyy";
     }
 
     // READ
